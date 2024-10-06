@@ -19,10 +19,10 @@ export default function Home() {
             <div className={"relative mt-[-180px]"}>
                 <h2 className={"font-brookshire text-6xl text-white text-center"}>Down the
                     Rabbit Hole</h2>
-                <h2 className={"font-brookshire text-6xl text-lightbrown text-center z-[5] -translate-y-[123px] -translate-x-[3px] lg:-translate-y-[63px]"}>Down
+                <h2 className={"font-brookshire text-6xl text-lightbrown text-center z-[5] -translate-y-[123px] -translate-x-[3px] md:-translate-y-[63px] lg:-translate-y-[63px]"}>Down
                     the Rabbit Hole</h2>
             </div>
-            <div className={"relative mt-[-100px] lg:mt-[-30px]"}>
+            <div className={"relative mt-[-100px] md:mt-[-40px] lg:mt-[-30px]"}>
                 <h2 className={"font-brookshire text-4xl text-white text-center"}>Coming Soon!</h2>
                 <h2 className={"font-brookshire text-4xl text-lightbrown text-center z-[5] -translate-y-[42.5px] -translate-x-[2px]"}>Coming Soon!</h2>
             </div>
