@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-        <div className={"w-full h-dvh bg-pink flex flex-col items-center justify-start"}>
+        <div className={"w-full h-screen bg-pink flex flex-col items-center justify-start"}>
             <Image
                 className={"ml-6"}
                 src={"/assets/img/CQFinalLogo.svg"} alt={"CQ Logo"} width={250} height={250}/>
@@ -30,7 +30,7 @@ export default function Home() {
                 <h2 className={"font-brookshire text-4xl text-white text-center"}>March 22-23 2025</h2>
                 <h2 className={"font-brookshire text-4xl text-lightbrown text-center z-[5] -translate-y-[42.5px] -translate-x-[2px]"}>March 22-23 2025</h2>
             </div>
-            <Link href={"https://www.instagram.com/cqhacks/"} className={"flex flex-row bg-white stroke-black text-black rounded-md p-1 px-1.5 z-20"}>
+            <Link href={"https://www.instagram.com/cqhacks/"} className={"flex flex-row bg-white stroke-black text-black rounded-md p-1 px-1.5 z-20 mt-[-40px]"}>
                 <Instagram/>
                 <div className={"ml-2"}>@cqhacks</div>
             </Link>
