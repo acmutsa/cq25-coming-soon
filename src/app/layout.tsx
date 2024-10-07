@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={bttf.variable}>
       <body
-        className={`font-brookshire antialiased`}
+        className={`font-brookshire antialiased h-dvh`}
       >
         {children}
       </body>
