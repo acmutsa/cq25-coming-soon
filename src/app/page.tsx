@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-        <div className={"w-full h-full bg-pink flex flex-col items-center justify-start"}>
+        <div className={"w-full h-dvh bg-pink flex flex-col items-center justify-start"}>
             <Image
                 className={"ml-6"}
                 src={"/assets/img/CQFinalLogo.svg"} alt={"CQ Logo"} width={250} height={250}/>
